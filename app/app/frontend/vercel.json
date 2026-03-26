@@ -1,4 +1,29 @@
 {
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "brandpixy.tech"
+        }
+      ],
+      "destination": "https://app.brandpixy.tech/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.brandpixy.tech"
+        }
+      ],
+      "destination": "https://app.brandpixy.tech/:path*",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/:path*",

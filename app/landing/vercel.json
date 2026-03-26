@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.brandpixy.tech"
+        }
+      ],
+      "destination": "https://brandpixy.tech/:path*",
+      "permanent": true
+    }
+  ]
+}
