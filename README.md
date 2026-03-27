@@ -27,8 +27,7 @@ BrandPixy helps entrepreneurs, creators, and businesses build a brand identity i
   domain name and social checks of your brand name 
   
 - **Visual Identity Generation**  
-  Creates SVG logo concepts based on the brand DNA.
-  create mockups
+  Creates logo concepts, designs, and mockups based on the brand DNA
 
 - **Modern UI/UX**  
   Sleek, minimalist, and animated frontend for an enjoyable user experience.
